@@ -29,10 +29,16 @@ namespace Hotsite.Controllers
             try{
             DatabaseService dbs = new DatabaseService();
             dbs.CadastraInteresse(cad);
+
+            return Json( new {status = "OK"});
+
             } catch(Exception e) {
                 _logger.LogError("Erro ao gravar no banco de dados " + e.Message);
+
+                return Json( new {status = "ERROR", mensagem = "Falha ao cadastrar!!"});
+
             }
-            return View("Index",cad);
+            //return View("Index",cad);//
         }
 
     }

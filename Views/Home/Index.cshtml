@@ -26,25 +26,25 @@
 
 <div class="row">
     <div class="col-md-6">
-        <div>
+        <div id="areaContato" class="contato">
             <h2>Entre em contato!:</h2>
             <p>Nos mande uma mensagem e fique por dentro de nossos eventos</p>
 
-            <form action="/Home/Cadastrar" method="POST">
+            <form id="frmCadastro">
                 <div>
                     <label asp-for="Nome">Nome:</label>
-                    <input asp-for="Nome" required/>
+                    <input asp-for="Nome" id="nome" required/>
                 </div>
                 <div>
                     <label asp-for="Email">Email:</label>
-                    <input asp-for="Email" required/>
+                    <input asp-for="Email" id="email" required/>
                 </div>
                 <div>
                     <label asp-for="Mensagem">Mensagem (opcional):</label>
-                    <textarea asp-for="Mensagem"></textarea>
+                    <textarea asp-for="Mensagem" id="mensagem"></textarea>
                 </div>
                 <div>
-                    <input type="submit" value="Enviar" />
+                    <input type="submit" value="Enviar" id="btnSubmit" />
                 </div>
             </form>
         </div>
