@@ -10,7 +10,7 @@ function Cadastrar(){
         Mensagem: $("#mensagem").val(),
     }
 
-    $.post("/Home/Cadastrar",parametros);
+    $.post("/Home/Cadastrar",parametros)
 
         .done(
             function(retorno){
