@@ -64,3 +64,4 @@ C:\Users\Carlos\OneDrive\Curso_Técnico_Informática_para_Internet\UC06\Projeto_
 C:\Users\Carlos\OneDrive\Curso_Técnico_Informática_para_Internet\UC06\Projeto_Hotsite\obj\Debug\netcoreapp3.1\Hotsite.dll
 C:\Users\Carlos\OneDrive\Curso_Técnico_Informática_para_Internet\UC06\Projeto_Hotsite\obj\Debug\netcoreapp3.1\Hotsite.pdb
 C:\Users\Carlos\OneDrive\Curso_Técnico_Informática_para_Internet\UC06\Projeto_Hotsite\obj\Debug\netcoreapp3.1\Hotsite.genruntimeconfig.cache
+C:\Users\Carlos\OneDrive\Curso_Técnico_Informática_para_Internet\UC06\Projeto_Hotsite\obj\Debug\netcoreapp3.1\Razor\Views\Home\_ModalHotsite.cshtml.g.cs
